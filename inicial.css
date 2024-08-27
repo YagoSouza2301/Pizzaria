@@ -72,10 +72,18 @@ header div ul li a {
     align-items: center;
 }
 .doce a {
+    color: white;
+}
+.doce a:hover{
+    transition: 1s;
     font-size: 30px;
     color: white;
 }
+
 .salgado a {
+    color: #fcf59b;
+}.salgado a:hover{
+    transition: 1s;
     font-size: 30px;
     color: #fcf59b;
 }

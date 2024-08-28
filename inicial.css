@@ -64,28 +64,103 @@ header div ul li a {
 
 .tipos {
     padding: 250px;
-    background:linear-gradient(180deg, #f2502c 8.33%, #f2502cb8 100%);
+    background:linear-gradient(180deg, #000000 88.33%, #464646d0 100%);
 }
 .sabor {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
+    color: aliceblue;
 }
+
+
 .doce a {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 .doce a:hover{
     transition: 1s;
-    font-size: 30px;
-    color: white;
+    font-size: 70px;
+    color: rgb(255, 0, 0);
 }
 
+.doces {
+    display: flex;
+    justify-content: center;
+}
+.doces div {
+    margin-right: 100px;
+}
+.doces .div-filho1 {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.doces .div-filho1:hover {
+    transition: 1s;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.doces .div-filho2 {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.doces .div-filho2:hover {
+    transition: 1s;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.doces .div-filho3 {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.doces .div-filho3:hover {
+    transition: 1s;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
 .salgado a {
-    color: #fcf59b;
+    color: #ffee00;
 }.salgado a:hover{
     transition: 1s;
-    font-size: 30px;
-    color: #fcf59b;
+    font-size: 70px;
+    color: #ffee00;
 }
 
 

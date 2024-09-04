@@ -17,7 +17,7 @@ header img {
     width: 120px;
     height: 120px;
     background-color: #fcfcfc;
-    border-radius: 60px;
+    border-radius: 50px;
 }
 header h1 {
     font-size: 70px;
@@ -254,13 +254,20 @@ header div ul li a {
 .sessao-3 button {
     width: 200px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.406);
-    border-color: red;
-}
-.sessao-3 button a {
-    color: white;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-color: rgb(255, 255, 255);
+    color: #fcfcfc;
     font-size: 15px;
     font-weight: 600;
+}
+.sessao-3 button:hover {
+    transition: 0.7s;
+    border-radius: 30px;
+    background-color: #000000;
+    border-color: rgb(255, 0, 0);
+    width: 225px;
+    cursor: pointer;
 }
 
 
@@ -269,7 +276,7 @@ header div ul li a {
 
 .sessao-4 {
     padding: 200px;
-    background-color: #0f0f0f;
+    background:linear-gradient(360deg, #000000 88.33%, #464646d0 100%);
 }
 .sessao-4 .div-pai-mapa {
     display: flex;
@@ -286,7 +293,6 @@ header div ul li a {
 }
 .sessao-4 .div-pai-mapa div p {
     text-align: center;
-    text-align: left;
     color: #fcfcfc;
     font-size: 18px;
     font-weight: 500;

@@ -72,7 +72,7 @@ header div ul li a:hover {
 /*-------------------------------------------------------sessão-02-------------------------------------------------------------*/
 
 .sessao-2 {
-    padding: 250px;
+    padding: 200px;
     background:linear-gradient(180deg, #000000 88.33%, #464646d0 100%);
 }
 .sabor {
@@ -85,10 +85,11 @@ header div ul li a:hover {
 
 
 .doce a {
+    transition: 0.8s;
     color: rgb(255, 0, 0);
 }
 .doce a:hover{
-    transition: 1s;
+    transition: 0.8s;
     font-size: 70px;
     color: rgb(255, 0, 0);
 }
@@ -99,59 +100,56 @@ header div ul li a:hover {
 .doces div {
     margin-right: 100px;
 }
+
 .doces .div-filho1 {
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-image: url(IMAGENS/pizza\ de\ morango.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .doces .div-filho1:hover {
-    transition: 1s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
-    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    transition: 0.6s;
+    background-image: url(IMAGENS/morango\ hover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .doces .div-filho2 {
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-image: url(IMAGENS/pizza\ de\ sorvete.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .doces .div-filho2:hover {
-    transition: 1s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
-    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    transition: 0.6s;
+    background-image: url(IMAGENS/pizza\ de\ sorvete\ hover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .doces .div-filho3 {
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-image: url(IMAGENS/pizza\ de\ chocolate.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .doces .div-filho3:hover {
-    transition: 1s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
-    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    transition: 0.6s;
+    background-image: url(IMAGENS/pizza\ de\ chocolate\ h.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,10 +157,11 @@ header div ul li a:hover {
 
 
 .salgado a {
+    transition: 0.8s;
     color: #ffee00;
 }
 .salgado a:hover{
-    transition: 1s;
+    transition: 0.8s;
     font-size: 70px;
     color: #ffee00;
 }
@@ -174,59 +173,65 @@ header div ul li a:hover {
     margin-top: 80px;
     margin-right: 100px;
 }
+
 .salgados .div-filho4 {
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-image: url(IMAGENS/pizza\ de\ frango.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .salgados .div-filho4:hover {
-    transition: 1s;
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    background-image: url(IMAGENS/pizza\ de\ frango\ hover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .salgados .div-filho5 {
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-image: url(IMAGENS/pizza\ de\ calabresa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .salgados .div-filho5:hover {
-    transition: 1s;
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    background-image: url(IMAGENS/pizza\ de\ calabresa\ hover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .salgados .div-filho6 {
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/pizzaria\ pedido.jpg);
+    background-image: url(IMAGENS/pizza\ de\ queijo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .salgados .div-filho6:hover {
-    transition: 1s;
+    transition: 0.6s;
     width: 250px;
     height: 300px;
     border-radius: 30px;
-    background-image: url(IMAGENS/seja\ bem\ vindo.jpg);
+    background-image: url(IMAGENS/pizza\ de\ queijo\ hover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,9 +239,9 @@ header div ul li a:hover {
 
 
 
-/*-------------------------------------------------------sessão-03-------------------------------------------------------------*/
+/*-------------------------------------------------------sessão-05-------------------------------------------------------------*/
 
-.sessao-3 {
+.sessao-5 {
     padding: 250px;
     background-color: #f2502c; /*Temporario*/
     background-image: url(IMAGENS/pizzaria\ pedido.jpg);
@@ -248,7 +253,7 @@ header div ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-.sessao-3 button {
+.sessao-5 button {
     width: 200px;
     height: 50px;
     border-radius: 7px;
@@ -257,8 +262,9 @@ header div ul li a:hover {
     color: #fcfcfc;
     font-size: 15px;
     font-weight: 600;
+    transition: 0.87s;
 }
-.sessao-3 button:hover {
+.sessao-5 button:hover {
     transition: 0.7s;
     border-radius: 30px;
     background-color: #000000;
@@ -269,18 +275,18 @@ header div ul li a:hover {
 
 
 
-/*-------------------------------------------------------sessão-04-------------------------------------------------------------*/
+/*-------------------------------------------------------sessão-06-------------------------------------------------------------*/
 
-.sessao-4 {
+.sessao-6 {
     padding: 200px;
     background:linear-gradient(360deg, #000000 88.33%, #464646d0 100%);
 }
-.sessao-4 .div-pai-mapa {
+.sessao-6 .div-pai-mapa {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.sessao-4 .div-pai-mapa div h2 {
+.sessao-6 .div-pai-mapa div h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,7 +294,7 @@ header div ul li a:hover {
     font-size: 40px;
     font-weight: bold;
 }
-.sessao-4 .div-pai-mapa div p {
+.sessao-6 .div-pai-mapa div p {
     text-align: center;
     color: #fcfcfc;
     font-size: 18px;

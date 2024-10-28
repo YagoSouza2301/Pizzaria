@@ -7,6 +7,8 @@
         <link rel="shortcut icon" href type="image/x-icon">
         <link rel="stylesheet" href="inicial.css">
         <link rel="shortcut icon" href="IMAGENS/logo.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/b61a4ed80b.js"
+            crossorigin="anonymous"></script>
     </head>
     <body>
 
@@ -38,16 +40,18 @@
         <main>
 
             <section class="sessao-1">
-                <div class="titulo">
-                    <h2>
-                        Bem-vindo à Pizzaria Souza!
-                    </h2>
-                </div>
-                <div class="paragrafo">
+                <div>
 
-                    <p>É com muita alegria que recebemos você em nosso cantinho
-                        especial, onde cada pedaço de pizza é preparado com
-                        carinho
+                    <div class="titulo">
+                        <h2>
+                            Bem-vindo à Pizzaria Souza!
+                        </h2>
+                    </div>
+                    <div class="paragrafo">
+                        
+                        <p>É com muita alegria que recebemos você em nosso cantinho
+                            especial, onde cada pedaço de pizza é preparado com
+                            carinho
                         e ingredientes frescos!
                         <br>
                         Aqui na Pizzaria Souza, nossa missão é proporcionar uma
@@ -67,39 +71,45 @@
                         sua visita seja tão agradável quanto a pizza que você
                         vai
                         saborear!</p>
+                    </div>
                 </div>
             </section>
 
             <section class="sessao-2">
-                <div class="sabor">
-                    <h3> Temos varios Sabores de Pizza! Desde
-                        <span class="doce">
-                            <a href>Doces</a>
-                        </span>
-                        e
-                        <span class="salgado">
-                            <a href>Salgados</a>
-                        </span>
-                    </h3>
-                </div>
+                <div>
 
-                <div class="doces">
-                    <div class="div-filho1"></div>
-                    <div class="div-filho2"></div>
-                    <div class="div-filho3"></div>
-                </div>
-
-                <div class="salgados">
-                    <div class="div-filho4"></div>
-                    <div class="div-filho5"></div>
-                    <div class="div-filho6"></div>
-                </div>
-
-            </section>
-
+                    <div class="sabor">
+                        <h3> Temos varios Sabores de Pizza! Desde
+                            <span class="doce">
+                                <a href>Doces</a>
+                            </span>
+                            e
+                            <span class="salgado">
+                                <a href>Salgados</a>
+                            </span>
+                        </h3>
+                    </div>
+                    
+                    <div id="mobile">
+                        <div class="doces">
+                            <div class="div div-filho1"></div>
+                            <div class="div div-filho2"></div>
+                            <div class="div div-filho3"></div>
+                        </div>
+                        
+                        <div class="salgados">
+                            <div class="div div-filho4"></div>
+                            <div class="div div-filho5"></div>
+                            <div class="div div-filho6"></div>
+                        </div>
+                    </div>
+                    
+                </section>
+            </div>
+                
             <section class="sessao-5">
                 <a href>
-                <button type="button">
+                    <button type="button">
                         Faça seu pedido
                     </button>
                 </a>
@@ -143,7 +153,7 @@
                             Esperamos por você! <br>
 
                             Atenciosamente, <br>
-                            <strong>Equipe da Pizzaria Souza</strong> 
+                            <strong>Equipe da Pizzaria Souza</strong>
                         </p>
                     </div>
                 </div>
@@ -152,39 +162,50 @@
         </main>
         <footer>
             <div>
-                <img src alt>
+                <img src="IMAGENS/logo.png" alt="logo">
             </div>
-            <div>
+            <div class="inform">
                 <ul>
                     <li>
                         <a href>Informações</a>
                     </li>
                     <li>
-                        <a href>Informações</a>
+                        <a href>Sobre Nós</a>
                     </li>
                     <li>
-                        <a href>Informações</a>
+                        <a href>Política de Privacidade</a>
                     </li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href>Informações</a>
-                    </li>
-                    <li>
-                        <a href>Informações</a>
-                    </li>
-                    <li>
-                        <a href>Informações</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h4>
-                    Nossas redes sociais
-                </h4>
+                </div>
+            </ul>
 
+            <div class="redes">
+                <div class="sociais">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/?locale=pt_BR">
+                                <i class="fa-brands fa-facebook">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <i class="fa-brands fa-instagram">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.whatsapp.com/?lang=pt_BR">
+                                <i class="fa-brands fa-whatsapp">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>
+                        Nossas redes sociais
+                    </h4>
+                </div>
             </div>
         </footer>
 
@@ -192,13 +213,13 @@
         <div vw class="enabled">
             <div vw-access-button class="active"></div>
             <div vw-plugin-wrapper>
-              <div class="vw-plugin-top-wrapper"></div>
+                <div class="vw-plugin-top-wrapper"></div>
             </div>
-          </div>
-          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-          <script>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
           </script>
-          
+
     </body>
 </html>

@@ -100,30 +100,35 @@ header div ul li a:hover {
     box-shadow:  6px 5px 20px rgb(255, 255, 255);
 }
 
-
+.mobile {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .doce a {
     transition: 0.6s;
     color: rgb(255, 0, 0);
 }
 .doce a:hover{
-    transition: 0.8s;
+    transition: 0.6s;
     font-size: 50px;
-    color: rgb(255, 0, 0);
 }
 .doces {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .doces div {
-    margin-right: 100px;
-}
-
-.doces .div-filho1 {
-    transition: 0.6s;
+    margin-top: 80px;
+    gap: 80px;
     width: 250px;
     height: 300px;
     border-radius: 30px;
+    transition: 0.6s;
+}
+
+
+.doces .div-filho1 {
     background-image: url(IMAGENS/pizza\ de\ morango.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -138,10 +143,6 @@ header div ul li a:hover {
 }
 
 .doces .div-filho2 {
-    transition: 0.6s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
     background-image: url(IMAGENS/pizza\ de\ sorvete.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -156,10 +157,6 @@ header div ul li a:hover {
 }
 
 .doces .div-filho3 {
-    transition: 0.6s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
     background-image: url(IMAGENS/pizza\ de\ chocolate.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -185,18 +182,22 @@ header div ul li a:hover {
 }
 .salgados {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .salgados div {
     margin-top: 80px;
-    margin-right: 100px;
-}
-
-.salgados .div-filho4 {
-    transition: 0.6s;
+    gap: 80px;
     width: 250px;
     height: 300px;
     border-radius: 30px;
+    transition: 0.6s;
+}
+.salgados div {
+    margin-top: 80px;
+}
+
+.salgados .div-filho4 {
     background-image: url(IMAGENS/pizza\ de\ frango.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -214,10 +215,6 @@ header div ul li a:hover {
 }
 
 .salgados .div-filho5 {
-    transition: 0.6s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
     background-image: url(IMAGENS/pizza\ de\ calabresa.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -235,10 +232,6 @@ header div ul li a:hover {
 }
 
 .salgados .div-filho6 {
-    transition: 0.6s;
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
     background-image: url(IMAGENS/pizza\ de\ queijo.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -281,7 +274,7 @@ header div ul li a:hover {
     color: #fcfcfc;
     font-size: 15px;
     font-weight: 600;
-    transition: 0.87s;
+    transition: 0.7s;
 }
 .sessao-5 button:hover {
     transition: 0.7s;
@@ -303,8 +296,9 @@ header div ul li a:hover {
 }
 .sessao-6 .div-pai-mapa {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 .sessao-6 .div-pai-mapa div h2 {
     display: flex;
@@ -313,6 +307,7 @@ header div ul li a:hover {
     color: #fffb00;
     font-size: 40px;
     font-weight: bold;
+    margin-top: 50px;
 }
 .sessao-6 .div-pai-mapa div p {
     text-align: center;
@@ -320,7 +315,6 @@ header div ul li a:hover {
     font-size: 18px;
     font-weight: 500;
 }
-
 
 
 /*-------------------------------------------------------RODAPÉ-------------------------------------------------------------*/
@@ -366,7 +360,138 @@ footer img {
 footer h4 {
     font-size: 20px;
 }
-
+.facebook i:hover{
+    transition: 0.6s;
+    color: blue;
+}
+.instagram i:hover{
+    transition: 0.6s;
+    color: rgb(200, 49, 255);
+}
+.whatsapp i:hover{
+    transition: 0.6s;
+    color: green;
+}
 
 
 /*-------------------------------------------------------MOBILE-------------------------------------------------------------*/
+@media (max-width:834px) {
+    /* ==================================================CABEÇALHO======================================================== */
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header img {
+        width: 3rem;
+        height: 3rem;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    header ul li{
+        display: none;
+    }
+
+    /* ==================================================SESSÃO1-MOBILE======================================================== */
+    .sessao-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 68px;
+    }
+    .titulo {
+        font-size: 16px;
+        text-align: center;
+    }
+    .paragrafo {
+        font-size: 14px;
+    }
+
+    /* ==================================================SESSÃO2-MOBILE======================================================== */
+    .sessao-2{
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sessao-2 h3 {
+        font-size: 30px;
+    }
+    .doce a:hover{
+        transition: 0.6s;
+        font-size: 45px;
+    }
+    .salgado a:hover{
+        transition: 0.6s;
+        font-size: 45px;
+    }
+
+    /* ==================================================SESSÃO5-MOBILE======================================================== */
+    .sessao-5 {
+        display: flex;
+        flex-direction: column;
+        padding: 200px;
+    }
+    .sessao-5 button {
+        width: 160px;
+        height: 50px;
+    }
+    .sessao-5 button:hover {
+        width: 160px;
+        height: 50px;
+    }
+
+    /* ==================================================SESSÃO6-MOBILE======================================================== */
+    .sessao-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 150px;
+    }
+    .sessao-6 iframe {
+        width: 350px;
+        height: 300px;
+    }
+    .sessao-6 .div-pai-mapa div h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .sessao-6 .div-pai-mapa div p {
+        margin-top: 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* ==================================================RODAPE-MOBILE======================================================== */
+    footer {
+        padding: 30px;
+        gap: 30px;
+    }
+    footer img {
+        width: 3rem;
+        height: 3rem;
+    }
+    footer .inform ul li a {
+        font-size: 10px;
+    }
+    .redes {
+        text-align: center;
+    }
+    .sociais ul {
+        display: flex;
+        gap: 30px;
+        margin: 10px 0px;
+    } 
+    
+    .sociais a {
+        list-style: none;
+    }
+    .sociais ul li i {
+        font-size: 20px;
+        color: #fcfcfc;
+    }
+    
+    footer h4 {
+        font-size: 10px;
+    }
+    
+}
